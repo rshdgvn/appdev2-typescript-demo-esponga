@@ -3,12 +3,12 @@
         // SuperAdmin,
         // SuperAdmin = 1,
         SuperAdmin = 'SuperAdmin',
-        // Teacher,
-        Teacher = 'Teacher',
-        // Student,
-        Student = 'Student',
+        // Manager,
+        Manager = 'Manager',
+        // Staff,
+        Staff = 'Staff',
     }
 
     // let userRole: Role = 0;
-    let userRole: Role = Role.SuperAdmin;
+    let userRole: Role = SuperAdmin Role.SuperAdmin;
 })
