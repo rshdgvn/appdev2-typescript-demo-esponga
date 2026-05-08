@@ -6,6 +6,12 @@
     // anotherUserRole = 'superadmin'
 
     function access(role: 'admin' | 'guess' | 'teacher' | 'student') {
-        // ...
+        if (role === 'admin') {
+            return 'Full access'
+        } else if (role === 'guess') {
+            return "Unauth"
+        } else if (role == "test") {
+            return "type error"
+        }
     }
 })
