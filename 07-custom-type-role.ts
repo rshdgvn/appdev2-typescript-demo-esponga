@@ -13,9 +13,20 @@
 
     let userRole: Role = 'admin'
 
-    // ...
+    const rshdgvn: User = {
+        name: 'Gavin',
+        age: 20,
+        role: 'admin',
+        permission: ['read', 'write']
+    }
 
     function access(role: Role) {
-        // ...
+        if (role === 'admin') {
+            return "Access granted heres your flag: CVDR{MEOW}"
+        }
+
+        return "No flag for you"
     }
+
+    console.log(access(rshdgvn.role))
 })
