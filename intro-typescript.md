@@ -47,3 +47,21 @@ Covers arrays with union types, object typing with nested properties, and the `R
 
 ## 05-enum.ts
 Introduces enums, specifically string enums, and shows how to assign `enum` values properly.
+
+## alternative-to-enum.ts
+You can just use Literal types, much simple
+
+## custom-type-role.ts
+You can create your own custom object that specified all the properties and types
+
+## functions.ts
+Learned about call back, void, and never, void don't return any, never just don't finish, usecase of never is for throwing an error
+
+## special-types.ts
+null and undefined, null is you defined it at nag asign ka ng "wala" so you can use it later for something, undefined you defined it pero wala ka pang inaasign
+
+## type-narrowing.ts
+HTMLelement, and you can use "?" for null safety but if theres is a throw error before that no need to use "?"
+
+## optional.ts
+|| and ??, || is meron or falsy, falsy means eto yung mga nagiging false kapag cinonvert mo sa boolean, like 0, "". etc, ?? naman is meron or special types lang, meron or undefined and null
